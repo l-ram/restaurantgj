@@ -10,8 +10,6 @@ const App = () => {
 
       <Route path='/' element={<Navigation name={'a string'} />}>
 
-        
-
       </Route>
 
     </Routes>
