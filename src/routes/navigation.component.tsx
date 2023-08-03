@@ -28,7 +28,7 @@ const Navigation = (props: NavigationProps) => {
             </ul>
             <div className='navbar__booking'>
                 <div />
-                <GiTable className='table' color='#DCCA87' fontSize={27}/>
+                <GiTable  className='table' color='#DCCA87' fontSize={27}/>
                 <a href="#booking" className='p__opensans'>Book a table</a>
             </div>
 
