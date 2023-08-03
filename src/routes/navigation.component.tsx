@@ -1,4 +1,4 @@
-import { GiHamburgerMenu } from 'react-icons/gi';
+import { GiHamburgerMenu, GiTable } from 'react-icons/gi';
 import { MdOutlineRestaurantMenu } from 'react-icons/md';
 import images from '../constants/images';
 
@@ -28,6 +28,7 @@ const Navigation = (props: NavigationProps) => {
             </ul>
             <div className='navbar__booking'>
                 <div />
+                <GiTable className='table' color='#DCCA87' fontSize={27}/>
                 <a href="#booking" className='p__opensans'>Book a table</a>
             </div>
 
